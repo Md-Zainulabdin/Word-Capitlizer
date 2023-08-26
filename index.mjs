@@ -1,6 +1,6 @@
 // Here is the Word Captilizer function which help you to captilize your headings, blogs, titles...
 
-const capitlize = (words) => {
+export const capitlize = (words) => {
 
     let data = words.split(" ");
     let capitalWords = data.map((val) => {
